@@ -1,2 +1,907 @@
-# miikatu.github.io
-wmkprojekti
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#accordion").accordion({
+                collapsible: true
+            });
+        });
+    </script>
+    <style>
+        .navbar-custom {
+            background-color: antiquewhite;
+            justify-content: center;
+
+
+        }
+
+        .navbar-custom .navbar-toggler-icon {
+            background-image: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-bell-512.png");
+        }
+
+        .navbar-custom.navbar-center {
+            position: absolute;
+            left: 50%;
+            transform: translatex(-50%);
+        }
+
+        /* Modify brand and text color */
+
+        .navbar-custom .navbar-brand,
+        .navbar-custom .navbar-text {
+            color: darkred;
+        }
+
+        #lomakesivu {
+            align-content: center;
+        }
+
+        .wideimg {
+            height: 500px;
+            background: #aaa;
+        }
+
+
+        #footer {
+            background-color: antiquewhite;
+
+
+            /* Height of the footer */
+
+        }
+
+        .bottomimg {
+            height: 200px;
+        }
+
+        #sideimg {
+            padding-top: 10ch;
+            height: 500px;
+        }
+
+        .footerimg {
+            height: 50px;
+        }
+
+        #textarea1 {
+            resize: none;
+        }
+
+        #submitBt {
+            float: right;
+        }
+
+        .alaotsikko {
+            background: #aaa;
+            border: #aaa;
+        }
+    </style>
+    <script>
+        $(".toggles").controlgroup({
+
+
+        });
+        $(document).ready(function () {
+            $("#hide").click(function () {
+                $(document.getElementById("piilo")).hide();
+            });
+            $("#show").click(function () {
+                $(document.getElementById("piilo")).show();
+            });
+            $(".jq").controlgroup({
+                icon: false
+            });
+
+        });
+
+
+        function myfunction() {
+            $(document.getElementById("aloitussivu")).hide();
+            $(document.getElementById("vinkitsivu")).hide();
+            $(document.getElementById("reseptisivu")).show();
+            $(document.getElementById("lomakesivu")).hide();
+            $(document.getElementById("hakusivu")).hide();
+        }
+
+        $(function () {
+
+            $(document).ready(function () {
+                $(document.getElementById("toggle1")).click(function () {
+                    $(document.getElementById("siivous")).toggle();
+
+                });
+                $(document.getElementById("toggle2")).click(function () {
+                    $(document.getElementById("ravintotieto")).toggle();
+
+                });
+                $(document.getElementById("toggle3")).click(function () {
+                    $(document.getElementById("ruuanlaitto")).toggle();
+
+
+                });
+                $(document.getElementById("toggle4")).click(function () {
+                    $(document.getElementById("maustaminen")).toggle();
+
+                });
+                $(document.getElementById("toggle5")).click(function () {
+                    $(document.getElementById("ruokakulttuuri")).toggle();
+
+                });
+                $(document.getElementById("toggle6")).click(function () {
+                    $(document.getElementById("yleisiaongelmia")).toggle();
+
+                });
+                $(document.getElementById("radio-1")).click(function () {
+                    $(document.getElementById("aloitussivu")).show();
+                    $(document.getElementById("reseptisivu")).hide();
+                    $(document.getElementById("lomakesivu")).hide();
+                    $(document.getElementById("hakusivu")).hide();
+                    $(document.getElementById("vinkitsivu")).hide();
+                });
+                $(document.getElementById("radio-2")).click(function () {
+                    $(document.getElementById("aloitussivu")).hide();
+                    $(document.getElementById("vinkitsivu")).hide();
+                    $(document.getElementById("reseptisivu")).show();
+                    $(document.getElementById("lomakesivu")).hide();
+                    $(document.getElementById("hakusivu")).hide();
+                });
+                $(document.getElementById("radio-3")).click(function () {
+                    $(document.getElementById("vinkitsivu")).show();
+                    $(document.getElementById("aloitussivu")).hide();
+                    $(document.getElementById("reseptisivu")).hide();
+                    $(document.getElementById("lomakesivu")).hide();
+                    $(document.getElementById("hakusivu")).hide();
+                });
+                $(document.getElementById("radio-4")).click(function () {
+                    $(document.getElementById("lomakesivu")).hide();
+                    $(document.getElementById("vinkitsivu")).hide();
+                    $(document.getElementById("aloitussivu")).hide();
+                    $(document.getElementById("reseptisivu")).hide();
+                    $(document.getElementById("hakusivu")).show();
+                });
+                $(document.getElementById("radio-5")).click(function () {
+                    $(document.getElementById("lomakesivu")).show();
+                    $(document.getElementById("vinkitsivu")).hide();
+                    $(document.getElementById("aloitussivu")).hide();
+                    $(document.getElementById("reseptisivu")).hide();
+                    $(document.getElementById("hakusivu")).hide();
+                });
+
+            });
+        });
+    </script>
+</head>
+
+
+
+<body>
+    <script>
+        function changePage() {
+            var selector = document.getElementsByClassName("pageSelect").value;
+
+            var element = document.getElementById("aloitus");
+
+            if (selector == "resepti")
+                element.style.display = "none";
+        }
+    </script>
+    <div class="aloitus">
+        <div>
+            <nav class=" navbar-inverse  ">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="#">
+                            <img src="KokkausLogoLight.png" class="img-fluid" alt="Responsive image" height="60">
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <!--<ul class="nav navbar-nav">
+                        <li class="active"><a class="navbar-brand" href="wmk.html">Aloitussivu</a></li>
+                        <li><a href="Reseptit.html">Reseptit</a></li>
+                        <li><a href="Vinkit.html"> Vinkit</a></li>
+                        <li><a href="Haku.html">Haku</a></li>
+                        <li><a href="Lomakkeet.html">Lomakkeet</a></li>
+                    </ul>-->
+                        <fieldset class="jq" id="pageSelect">
+
+                            <input type="button" value="aloitus" name="radio-1" id="radio-1">
+
+                            <input type="button" value="resepti" name="radio-2" id="radio-2">
+
+                            <input type="button" value="vinkki" name="radio-3" id="radio-3">
+
+                            <input type="button" value="Haku" name="radio-4" id="radio-4">
+
+                            <input type="button" value="Lomakkeet" name="radio-5" id="radio-5">
+                        </fieldset>
+                    </div>
+                </div>
+            </nav>
+            <!--Sisältö Alkaa-->
+        </div>
+        <div id="aloitussivu" class="container">
+            <div class="row" id="row1">
+                <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" class="col-sm-4">
+                    <h2>Tervetuloa</h2>
+                    <div>
+                        <h1 class="otsikko">Kokkkaussivusto</h1>
+                        <img class="img-responsive img-rounded" src="washed-dishes-mess-in-kitchen-picjumbo-com.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="row2">
+                <div class="col-sm-8">
+                    <div class="selite">
+                        <h1 clas="alaotsikko">Mitä?</h1>
+                        <p>Moi mitä kuuluus</p>
+                        <p>Olet löytänyt tiesi Kokkaussivulle:</p>
+                        <p>Täältä löydät kaikkein helpoimmat reseptit ja vinkit helpompaan arkeen.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor</p>
+                        <p>incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                        <p>nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.</p>
+                    </div>
+                    <div class="selite">
+                        <h1 clas="alaotsikko">Kenelle?</h1>
+                        <p>Olit sitten amatööri kokki, opiskelija, tai muuten vain kiireinen ruuanlaittaja,</p>
+                        <p>Kokkaussivut ovat tehty juuri sinua varten !</p>
+                        <p>Tarjoamme loputtomin määrin materiaalia helpottamaan touhujasi keittiössä !!!</p>
+                        <p>Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                        <p>nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.</p>
+                        <p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
+                        <p>pariatur.</p>
+                        <p>Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia</p>
+                        <p>animd est laborum.</p>
+                    </div>
+                    <div class="selite">
+                        <h1 clas="alaotsikko">Miksi??</h1>
+                        <p>Kolme vuotta sitten huomasimme kuinka ihmiset alkoivat turhautumaan omiin
+                            Ruuanlaitto taitoihinsa.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt</p>
+                        <p>ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                        <p>ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in</p>
+                        <p>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat</p>
+                        <p>cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt</p>
+                        <p>ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                        <p>ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit</p>
+                        <p>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat
+                            cupiditat/p>
+                        <p>non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4" id="sivukuva">
+                    ><img id="sideimg" class=" img-rounded "  onclick="myfunction()"
+                        src="chicken-mixed-vegetables-pan-picjumbo-com.jpg">
+                </div>
+            </div>
+            <div class="row" id="row3">
+                <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" class="col-sm-4">
+                    <div>
+                        <img class="bottomimg" src="KokkausLogo.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div hidden id="reseptisivu">
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <h3>Pikanuudelit aamupalaksi</h3>
+                            <img style="height:100px;" class="card-img-top " src="foodImage.png">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisci
+                                    elit, sed eiusmod tempor incidunt ut labore et
+                                    dolore magna aliqua.</p>
+                                <p class="text-muted"> Vaiheet:</p>
+                                <p class="text-muted"> 1) sed eiusmod tempor incidunt </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Avaa
+                                        resepti</button>
+
+                                </div>
+                                <small class="text-muted">9h sitten</small>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <h3>Makaronilaatikko</h3>
+                            <img style="height:100px;" class="card-img-top " src="foodImage.png">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisci
+                                    elit, sed eiusmod tempor incidunt ut labore et
+                                    dolore magna aliqua.</p>
+                                <p class="text-muted"> Vaiheet:</p>
+                                <p class="text-muted"> 1) sed eiusmod tempor incidunt </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Avaa
+                                        resepti</button>
+
+                                </div>
+                                <small class="text-muted">9h sitten</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <h3>Makaronilaatikko</h3>
+                            <img style="height:100px;" class="card-img-top " src="foodImage.png">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisci
+                                    elit, sed eiusmod tempor incidunt ut labore et
+                                    dolore magna aliqua.</p>
+                                <p class="text-muted"> Vaiheet:</p>
+                                <p class="text-muted"> 1) sed eiusmod tempor incidunt </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Avaa
+                                        resepti</button>
+
+                                </div>
+                                <small class="text-muted">9h sitten</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <h3>Makaronilaatikko</h3>
+                            <img style="height:100px;" class="card-img-top " src="foodImage.png">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisci
+                                    elit, sed eiusmod tempor incidunt ut labore et
+                                    dolore magna aliqua.</p>
+                                <p class="text-muted"> Vaiheet:</p>
+                                <p class="text-muted"> 1) sed eiusmod tempor incidunt </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Avaa
+                                        resepti</button>
+
+                                </div>
+                                <small class="text-muted">9h sitten</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <h3>Makaronilaatikko</h3>
+                            <img style="height:100px;" class="card-img-top " src="foodImage.png">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisci
+                                    elit, sed eiusmod tempor incidunt ut labore et
+                                    dolore magna aliqua.</p>
+                                <p class="text-muted"> Vaiheet:</p>
+                                <p class="text-muted"> 1) sed eiusmod tempor incidunt </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Avaa
+                                        resepti</button>
+
+                                </div>
+                                <small class="text-muted">9h sitten</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <h3>Makaronilaatikko</h3>
+                            <img style="height:100px;" class="card-img-top " src="foodImage.png">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisci
+                                    elit, sed eiusmod tempor incidunt ut labore et
+                                    dolore magna aliqua.</p>
+                                <p class="text-muted"> Vaiheet:</p>
+                                <p class="text-muted"> 1) sed eiusmod tempor incidunt </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Avaa
+                                        resepti</button>
+
+                                </div>
+                                <small class="text-muted">9h sitten</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <h3>Makaronilaatikko</h3>
+                            <img style="height:100px;" class="card-img-top " src="foodImage.png">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisci
+                                    elit, sed eiusmod tempor incidunt ut labore et
+                                    dolore magna aliqua.</p>
+                                <p class="text-muted"> Vaiheet:</p>
+                                <p class="text-muted"> 1) sed eiusmod tempor incidunt </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Avaa
+                                        resepti</button>
+
+                                </div>
+                                <small class="text-muted">9h sitten</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <h3>Makaronilaatikko</h3>
+                            <img style="height:100px;" class="card-img-top " src="foodImage.png">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisci
+                                    elit, sed eiusmod tempor incidunt ut labore et
+                                    dolore magna aliqua.</p>
+                                <p class="text-muted"> Vaiheet:</p>
+                                <p class="text-muted"> 1) sed eiusmod tempor incidunt </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Avaa
+                                        resepti</button>
+
+                                </div>
+                                <small class="text-muted">9h sitten</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <h3>Makaronilaatikko</h3>
+                            <img style="height:100px;" class="card-img-top " src="foodImage.png">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisci
+                                    elit, sed eiusmod tempor incidunt ut labore et
+                                    dolore magna aliqua.</p>
+                                <p class="text-muted"> Vaiheet:</p>
+                                <p class="text-muted"> 1) sed eiusmod tempor incidunt </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Avaa
+                                        resepti</button>
+
+                                </div>
+                                <small class="text-muted">9h sitten</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <h3>Kananuudeli</h3>
+                            <img style="height:100px;" class="card-img-top " src="foodImage.png">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisci
+                                    elit, sed eiusmod tempor incidunt ut labore et
+                                    dolore magna aliqua.</p>
+                                <p class="text-muted"> Vaiheet:</p>
+                                <p class="text-muted"> 1) sed eiusmod tempor incidunt </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Avaa
+                                        resepti</button>
+
+                                </div>
+                                <small class="text-muted">9h sitten</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div hidden id="vinkitsivu">
+        <div class="container">
+            <h3>Valitse Aihe:</h3>
+            <div class="toggles" aria-atomic="divtoggle">
+                <label for="toggle1">Siivous</label>
+                <input class="toggle brand-toggle" type="checkbox" name="vinkki1" id="toggle1">
+                <label for="toggle2">Ravintotieto</label>
+                <input class="toggle" type="checkbox" name="border" id="toggle2">
+                <label for="toggle3">Ruuanlaitto</label>
+                <input class="toggle brand-toggle" type="checkbox" name="vinkki3" id="toggle3" checked>
+                <label for="toggle4"> Maustaminen</label>
+                <input class="toggle brand-toggle" type="checkbox" name="vinkki4" id="toggle4" checked>
+                <label for="toggle5">Ruokakulttuuri </label>
+                <input class="toggle brand-toggle" type="checkbox" name="vinkki5" id="toggle5" checked>
+                <label for="toggle6">yleisiaongelmia </label>
+                <input class="toggle brand-toggle" type="checkbox" name="vinkki6" id="toggle6" checked>
+            </div>
+            <br>
+            <div style="visibility:hidden">
+                <br>
+                <br>
+
+
+            </div>
+            <div id="ravintotieto" hidden class="row mb-2">
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+
+                            <h3 class="mb-0">
+                                <a class="text-dark" href="#">Ravintotieto</a>
+
+                            </h3>
+                            <img class="card-img-top img-responsive flex-auto d-none d-md-block"
+                                data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
+                                style="width: 400px; height: 200px;" src="foodImage.png" data-holder-rendered="true">
+                            <div class="mb-1 text-muted">lokakuu </div>
+                            <h3 class="card-text mb-auto">Viimeinen perunan
+                                keitto ohje, Jonka
+                                tulet lukemaan</h3>
+                            <a href="#">Lue kokonaan</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+
+                            <h3 class="mb-0">
+                                <a class="text-dark" href="#">Ravintotieto</a>
+
+                            </h3>
+                            <img class="card-img-top img-responsive flex-auto d-none d-md-block"
+                                data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
+                                style="width: 400px; height: 200px;" src="foodImage.png" data-holder-rendered="true">
+                            <div class="mb-1 text-muted">Nov 12</div>
+                            <h3 class="card-text mb-auto">Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                                amet, consectetur, adipisci velit...</h3>
+                            <a href="#">Lue kokonaan</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div id="yleisiaongelmia" hidden class="row mb-2">
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+
+                            <h3 class="mb-0">
+                                <a class="text-dark" href="#">Yleisiä ongelmia</a>
+
+                            </h3>
+                            <img class="card-img-top img-responsive flex-auto d-none d-md-block"
+                                data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
+                                style="width: 400px; height: 200px;" src="foodImage.png" data-holder-rendered="true">
+                            <div class="mb-1 text-muted">Marraskuu</div>
+                            <h3 class="card-text mb-auto">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                                odit aut fugit !</h3>
+                            <a href="#">Lue kokonaan</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+
+                            <h3 class="mb-0">
+                                <a class="text-dark" href="#">Yleisiä ongelmia</a>
+
+                            </h3>
+                            <img class="card-img-top img-responsive flex-auto d-none d-md-block"
+                                data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
+                                style="width: 400px; height: 200px;" src="foodImage.png" data-holder-rendered="true">
+                            <div class="mb-1 text-muted">Elokuu</div>
+                            <h3 class="card-text mb-auto">Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                                corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</h3>
+                            <a href="#">Lue kokonaan</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div id="ruuanlaitto" hidden class="row mb-2">
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+
+                            <h3 class="mb-0">
+                                <a class="text-dark" href="#">Ruuanlaitto</a>
+
+                            </h3>
+                            <img class="card-img-top img-responsive flex-auto d-none d-md-block"
+                                data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
+                                style="width: 400px; height: 200px;" src="foodImage.png" data-holder-rendered="true">
+                            <div class="mb-1 text-muted">Syyskuu</div>
+                            <h3 class="card-text mb-auto">Viimeinen perunan
+                                keitto ohje, Jonka
+                                tulet lukemaan</h3>
+                            <a href="#">Lue kokonaan</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+
+                            <h3 class="mb-0">
+                                <a class="text-dark" href="#">Ruuanlaitto</a>
+
+                            </h3>
+                            <img class="card-img-top img-responsive flex-auto d-none d-md-block"
+                                data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
+                                style="width: 400px; height: 200px;" src="foodImage.png" data-holder-rendered="true">
+                            <div class="mb-1 text-muted">Marraskuu</div>
+                            <h3 class="card-text mb-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor.</h3>
+                            <a href="#">Lue kokonaan</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div id="ruokakulttuuri" hidden class="row mb-2">
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+
+                            <h3 class="mb-0">
+                                <a class="text-dark" href="#">Ruokakulttuuri</a>
+
+                            </h3>
+                            <img class="card-img-top img-responsive flex-auto d-none d-md-block"
+                                data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
+                                style="width: 400px; height: 200px;" src="foodImage.png" data-holder-rendered="true">
+                            <div class="mb-1 text-muted">Tammikuu</div>
+                            <h3 class="card-text mb-auto">Et harum quidem rerum facilis est et expedita distinctio?</h3>
+                            <a href="#">Lue kokonaan</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+
+                            <h3 class="mb-0">
+                                <a class="text-dark" href="#">Ruokakulttuuri</a>
+
+                            </h3>
+                            <img class="card-img-top img-responsive flex-auto d-none d-md-block"
+                                data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
+                                style="width: 400px; height: 200px;" src="foodImage.png" data-holder-rendered="true">
+                            <div class="mb-1 text-muted">Tammikuu</div>
+                            <h3 class="card-text mb-auto">Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                                amet,
+                                consectetur, adipisci velit...</h3>
+                            <a href="#">Lue kokonaan</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div id="maustaminen" hidden class="row mb-2">
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+
+                            <h3 class="mb-0">
+                                <a class="text-dark" href="#">Maustaminen</a>
+
+                            </h3>
+                            <img class="card-img-top img-responsive flex-auto d-none d-md-block"
+                                data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
+                                style="width: 400px; height: 200px;" src="foodImage.png" data-holder-rendered="true">
+                            <div class="mb-1 text-muted">Heinäkuu</div>
+                            <h3 class="card-text mb-auto">Keittiösi 5 tärkeintä maustetta</h3>
+                            <a href="#">Lue kokonaan</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+
+                            <h3 class="mb-0">
+                                <a class="text-dark" href="#">Maustaminen</a>
+
+                            </h3>
+                            <img class="card-img-top img-responsive flex-auto d-none d-md-block"
+                                data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
+                                style="width: 400px; height: 200px;" src="foodImage.png" data-holder-rendered="true">
+                            <div class="mb-1 text-muted">Kesäkuu</div>
+                            <h3 class="card-text mb-auto">Puuttuuko keittiöstäsi tämä monikäyttöinen mauste?</h3>
+                            <a href="#">Lue kokonaan</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div id="siivous" hidden class="row mb-2">
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+
+                            <h3 class="mb-0">
+                                <a class="text-dark" href="#">Siivous</a>
+
+                            </h3>
+                            <img class="card-img-top img-responsive flex-auto d-none d-md-block"
+                                data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
+                                style="width: 400px; height: 200px;"
+                                src="washed-dishes-mess-in-kitchen-picjumbo-com.jpg" data-holder-rendered="true">
+                            <div class="mb-1 text-muted">marraskuu </div>
+                            <h3 class="card-text mb-auto">Kattila puhtaaksi 2 minuutissa</h3>
+                            <a href="#">Lue kokonaan</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+
+                            <h3 class="mb-0">
+                                <a class="text-dark" href="#">Siivous </a>
+
+                            </h3>
+                            <img class="card-img-top img-responsive flex-auto d-none d-md-block"
+                                data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
+                                style="width: 400px; height: 200px;"
+                                src="washed-dishes-mess-in-kitchen-picjumbo-com.jpg" data-holder-rendered="true">
+                            <div class="mb-1 text-muted">joulukuu</div>
+                            <h3 class="card-text mb-auto">Paras tapa siivota lattiat</h3>
+                            <a href="#">Lue kokonaan</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div hidden id="hakusivu">
+        <p>Haku sivu</p>
+    </div>
+    <div hidden id="lomakesivu">
+        <div class="container col-xl-12">
+            <div class="row">
+                <br>
+                <h1 class="h3 mb-3 ">Palaute Lomake</h1>
+                <p>Tässä on lomake jolla voit lähettää meille palautetta tai reseptejä. </p>
+                <div class="container">
+                    <div class=" col-sm-6">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="otsikko">
+                        <label for="floatingInput"></label>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="dropdown">
+                            <label>Tyyppi</label>
+                            <div>
+                                <fieldset>
+                                    <select aria-placeholder="moi" id="car-type">
+                                        <option>Palaute</option>
+                                        <option>Resepti</option>
+                                        <option>Muu</option>
+                                    </select>
+                                </fieldset>
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <label for="floatingPassword">Nimesi</label>
+                    <input id="lomakeNimi" type="text" class="form-control" id="floatingPassword" placeholder="Nimi">
+                </div>
+                <div class="col-sm-3">
+                    <label for="floatingPassword">Sähköposti</label>
+                    <input type="text" class="form-control" id="floatingPassword" placeholder="@">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="exampleFormControlTextarea4" class="">Kirjoita</label>
+                    <textarea class="form-control" id="textarea1" rows="3" style="height: 258px;"></textarea>
+
+                </div>
+
+
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <button id="submitBt" type="button" class="btn btn-outline-primary">Lähetä</button>
+                </div>
+                <br>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <img src="thank-you-picjumbo-com.jpg " style="height: 500px;" class="img-responsive img-rounded col-sm-4">
+            <h4>Kiitos yhteydenotostasi!</h4>
+            <div>
+                <p>Oleme sinuun yhteydessä mahdollisimman nopeasti.</p>
+                <p>Lorem ipsum dolor sit amet,</p>
+                <p>consectetur adipisci elit, sed eiusmod</p>
+                <p>tempor incidunt ut labore et dolore</p>
+                <p>magna aliqua. Ut enim ad minim</p>
+                <p>veniam, quis nostrud exercitation</p>
+                <p>ullamco laboris nisi ut aliquid ex ea</p>
+                <p>commodi consequat. Quis aute iure</p>
+                <p>reprehenderit in voluptate velit esse</p>
+                <p>cillum dolore eu fugiat nulla pariatur.</p>
+                <p>Excepteur sint obcaecat cupiditat non</p>
+                <p>proident, sunt in culpa qui officia</p>
+                <p>deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+    <footer class="container" id="footer">
+        <div class="row justify-content-center">
+            <div class="col-10 col-lg-6">
+                <div class="subscribe mb-5">
+                    <form action="#" class="subscribe-form">
+                        <div class="form-group d-flex">
+                            <img class="footerimg" src="KokkausLogo.png">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-6 col-lg-4 text-left">
+                <p>
+                    <a class="mr-md-3" href="#">Alkuun</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+<div>
+
+
+</div>
+
+<body>
+
+
+
+
+
+
+</body>
+
+</html>
