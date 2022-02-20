@@ -22,11 +22,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
     <script>
-        $(function () {
-            $("#accordion").accordion({
-                collapsible: true
-            });
-        });
+      
     </script>
     <style>
         .navbar-custom {
@@ -98,20 +94,24 @@
         }
     </style>
     <script>
+
+function alertFunction() {
+    $('#toggle6').removeAttr('checked');
+                $('#toggle5').removeAttr('checked');
+                $('#toggle4').removeAttr('checked');
+                $('#toggle3').removeAttr('checked');
+                $('#toggle2').removeAttr('checked');
+                $('#toggle1').removeAttr('checked');
+                   
+         }
+
+         window.onload=alertFunction();
         $(".toggles").controlgroup({
 
 
         });
         $(document).ready(function () {
-            $("#hide").click(function () {
-                $(document.getElementById("piilo")).hide();
-            });
-            $("#show").click(function () {
-                $(document.getElementById("piilo")).show();
-            });
-            $(".jq").controlgroup({
-                icon: false
-            });
+           
 
         });
         function myfunction() {
@@ -123,6 +123,10 @@
         }
         $(function () {
             $(document).ready(function () {
+
+               
+                
+                
                 $(document.getElementById("toggle1")).click(function () {
                     $(document.getElementById("siivous")).toggle();
                 });
@@ -836,7 +840,17 @@
     </div>
 </body>
 <div>
+
+
 </div>
+
 <body>
+
+
+
+
+
+
 </body>
+
 </html>
