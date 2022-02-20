@@ -96,7 +96,7 @@
     <script>
 
 function alertFunction() {
-    $('#toggle6').removeAttr('checked');
+            $('#toggle6').removeAttr('checked');
                 $('#toggle5').removeAttr('checked');
                 $('#toggle4').removeAttr('checked');
                 $('#toggle3').removeAttr('checked');
@@ -106,6 +106,7 @@ function alertFunction() {
          }
 
          window.onload=alertFunction();
+         
         $(".toggles").controlgroup({
 
 
@@ -144,6 +145,7 @@ function alertFunction() {
                     $(document.getElementById("ruokakulttuuri")).toggle();
                 });
                 $(document.getElementById("toggle6")).click(function () {
+                    
                     $(document.getElementById("yleisiaongelmia")).toggle();
                 });
                 $(document.getElementById("radio-1")).click(function () {
@@ -480,15 +482,15 @@ function alertFunction() {
                 <label for="toggle1">Siivous</label>
                 <input unchecked class="toggle brand-toggle" type="checkbox" name="vinkki1" id="toggle1">
                 <label for="toggle2">Ravintotieto</label>
-                <input class="toggle" type="checkbox" name="border" id="toggle2">
+                <input class="toggle" type="checkbox" name="vinkki2" id="toggle2">
                 <label for="toggle3">Ruuanlaitto</label>
-                <input class="toggle brand-toggle" type="checkbox" name="vinkki3" id="toggle3" checked>
+                <input class="toggle brand-toggle" type="checkbox" name="vinkki3" id="toggle3" >
                 <label for="toggle4"> Maustaminen</label>
-                <input class="toggle brand-toggle" type="checkbox" name="vinkki4" id="toggle4" checked>
+                <input class="toggle brand-toggle" type="checkbox" name="vinkki4" id="toggle4" >
                 <label for="toggle5">Ruokakulttuuri </label>
-                <input class="toggle brand-toggle" type="checkbox" name="vinkki5" id="toggle5" checked>
+                <input class="toggle brand-toggle" type="checkbox" name="vinkki5" id="toggle5" >
                 <label for="toggle6">yleisiaongelmia </label>
-                <input unchecked class="toggle brand-toggle" type="checkbox" name="vinkki6" id="toggle6" checked>
+                <input unchecked class="toggle brand-toggle" type="checkbox" name="vinkki6" id="toggle6" >
             </div>
             <br>
             <div style="visibility:hidden">
