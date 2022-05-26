@@ -8,15 +8,57 @@
 
 
         }
-
+        
         #intro {
-            background-image: ;
+            background-image: url(/micaela-parente-YGgKE6aHaUw-unsplash.jpg);
+            background-size:100% 100%;
             height: 100vh;
         }
-
+       
+        .home h1{
+            color: rgb(112, 30, 30);
+            font-size: 4em;
+            font-weight: bold;
+        }
+        .home p{
+            font-style:italic;
+            font-size: 2.5em;
+            color: rgb(197, 190, 190);
+            background-color: rgba(0, 0, 0, 0.782);
+        }
+        .home .btn1{
+            height: 50px;
+            width: 100px;
+            font-weight: bold;
+            font-size: large;
+            background-color: rgb(255, 255, 255);
+            color: black;
+            border-style: ridge;
+            display: inline-block;
+            border-radius: 10%;
+            
+            gap: 5%;
+        }
+        .home .btn2{
+            height: 50px;
+            width: 100px;
+            font-weight: bold;
+            font-size: large;
+            background-color: rgb(255, 255, 255);
+            color: black;
+            border-style: ridge;
+            display: inline-block;
+            border-radius: 10%;
+        }
         .mleft {
             margin-left: auto !important;
             margin-right: auto;
+        }
+        .collg8{
+           
+            padding: 5%;
+            margin: 5%;
+            box-sizing: border-box;
         }
 
         .pr5 {
@@ -64,13 +106,13 @@
 
     <section id="intro" class="home">
         <div class="home">
-            <div class="row">
-                <div class="col-lg-8">
-                    <h1>Responsivity Testi</h1>
-                    <p> Miekkailu on yleiskäsite erilaisille miekkaa käyttäville taistelumuodoille. Nykyisessä
+            <div class="container text-left row">
+                <div class="collg8">
+                    <h1 id="home h1">Responsivity Testi</h1>
+                    <p class="home p"> Miekkailu on yleiskäsite erilaisille miekkaa käyttäville taistelumuodoille. Nykyisessä
                         kielenkäytössä miekkailulla tarkoitetaan yleensä länsimaista urheilumiekkailua. </p>
-                        <button class="btn1">Tutustu</button>
-                        <button class="btn2">Harrasta   </button>
+                        <button class="btn1 m-2">Tutustu</button>
+                        <button class="btn2 m-2">Harrasta   </button>
                     </div>
             </div>
         </div>
