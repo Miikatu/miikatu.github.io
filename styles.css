@@ -1,0 +1,108 @@
+.navbar-brand img {
+    height: 5rem;
+
+
+}
+
+#intro {
+    background-image: url(/micaela-parente-YGgKE6aHaUw-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+
+.home h1 {
+    color: rgb(112, 30, 30);
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.home p {
+    font-style: italic;
+    font-size: 2em;
+    color: rgb(197, 190, 190);
+    background-color: rgba(0, 0, 0, 0.782);
+    line-height: 1.20;
+}
+
+.home .btn1 {
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+    font-size: large;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-style: ridge;
+    display: inline-block;
+    border-radius: 10%;
+
+    gap: 5%;
+}
+
+.home .btn2 {
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+    font-size: large;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-style: ridge;
+    display: inline-block;
+    border-radius: 10%;
+}
+
+.laattaBody p {
+    padding-right: 5%;
+    padding-left: 5%;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+}
+
+.laattaBody .otsikko {
+    font-weight: bold;
+
+
+}
+
+.kortti {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mauto {
+    margin-left: auto !important;
+    margin-right: auto;
+}
+
+.mcenter {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.collg8 {
+
+    padding: 5%;
+    margin: 5%;
+    box-sizing: border-box;
+}
+
+#kuvake {
+    border-radius: 2.5%;
+}
+
+
+.pr5 {
+    padding: 5%;
+
+}
+
+.fontW {
+    font-weight: bold;
+}
+.testbox{
+    background-color: rgb(255, 242, 0);
+    border-style: solid;
+    
+}
