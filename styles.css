@@ -3,7 +3,10 @@
 
 
 }
-
+.nav a{
+    color: white !important;
+    font-size: 1.8em !important;
+    }
 #intro {
     background-image: url(/micaela-parente-YGgKE6aHaUw-unsplash.jpg);
     background-size: cover;
@@ -50,10 +53,24 @@
     display: inline-block;
     border-radius: 10%;
 }
+.info{
+    font-size:x-large    ;
+}
 .contact p{
     font-weight: bold;
 }
+.contact h1{
+    font-weight: bold;
+}
 
+.btn-block{
+        background-color: rgb(112, 30, 30);
+        color:white;
+        line-height: 2;
+        font-weight: bold;
+        font-size: large;
+        
+}
 .laattaBody p {
     padding-right: 5%;
     padding-left: 5%;
