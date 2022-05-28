@@ -50,6 +50,9 @@
     display: inline-block;
     border-radius: 10%;
 }
+.contact p{
+    font-weight: bold;
+}
 
 .laattaBody p {
     padding-right: 5%;
