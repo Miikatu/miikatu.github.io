@@ -84,11 +84,76 @@
 
 
 }
-
-.kortti {
-
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.overlay {
+   position: absolute;
+    top: 0;
+    bottom: 10;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.354);
+  }
+  .card{
+    border-radius: 5px 5px 0 0;
+  }
+  .kortti{
+      display: block;
+      aspect-ratio: 1/1;
+      height: 100%;
+      
+  }
+  .kortti > .otsikko{
+      text-align: center;
+      font-weight: bold;
+      font-size:x-large;
+  }
+  .kortti  img{
+   
+  }
+  .kortti:hover .overlay {
+    opacity: 1;
+  }
+  .button{
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 24px 51px, rgba(255, 255, 255, 0.25) 0px -12px 30px, rgba(255, 255, 255, 0.25) 0px 4px 6px, rgba(255, 255, 255, 0.25) 0px 12px 13px, rgba(255, 255, 255, 0.25) 0px -3px 5px;
+    background-color: rgb(255, 255, 255); /* Green */
+    border: none !important;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: x-large;;
+    border-radius: 5% 5%;
+   
+  }
+  .button:hover{
+    transform: translateY(-0.25em);
+  }
+  backlight{
+    box-shadow: beige;
+  }
+  
+  .dd{
+    vertical-align: bottom;
+  }
+#mask{
+    position: absolute;
+    top: 0;
+    bottom: 10;
+    left: 0;
+    right: 0;
+    height: 10%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(255, 247, 0);
 }
+
+
 
 .mauto {
     margin-left: auto !important;
