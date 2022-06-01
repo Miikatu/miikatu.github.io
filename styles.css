@@ -3,10 +3,12 @@
 
 
 }
-.nav a{
+
+.nav a {
     color: white !important;
     font-size: 1.8em !important;
-    }
+}
+
 #intro {
     background-image: url(/micaela-parente-YGgKE6aHaUw-unsplash.jpg);
     background-size: cover;
@@ -53,24 +55,29 @@
     display: inline-block;
     border-radius: 10%;
 }
-.info{
-    font-size:x-large    ;
+
+.info {
+    font-size: x-large;
+    color: rgb(55, 55, 55);
 }
-.contact p{
-    font-weight: bold;
-}
-.contact h1{
+
+.contact p {
     font-weight: bold;
 }
 
-.btn-block{
-        background-color: rgb(112, 30, 30);
-        color:white;
-        line-height: 2;
-        font-weight: bold;
-        font-size: large;
-        
+.contact h1 {
+    font-weight: bold;
 }
+
+.btn-block {
+    background-color: rgb(112, 30, 30);
+    color: white;
+    line-height: 2;
+    font-weight: bold;
+    font-size: large;
+
+}
+
 .laattaBody p {
     padding-right: 5%;
     padding-left: 5%;
@@ -84,8 +91,9 @@
 
 
 }
+
 .overlay {
-   position: absolute;
+    position: absolute;
     top: 0;
     bottom: 10;
     left: 0;
@@ -95,30 +103,28 @@
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(0, 0, 0, 0.354);
-  }
-  .card{
-    border-radius: 5px 5px 0 0;
-  }
-  .kortti{
-      display: block;
-      aspect-ratio: 1/1;
-      height: 100%;
-      
-  }
-  .kortti > .otsikko{
-      text-align: center;
-      font-weight: bold;
-      font-size:x-large;
-  }
-  .kortti  img{
-   
-  }
-  .kortti:hover .overlay {
+}
+
+.kortti {
+    display: block;
+    height: 100%;
+
+}
+
+.kortti>.otsikko {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.kortti:hover .overlay {
     opacity: 1;
-  }
-  .button{
+}
+
+.button {
     box-shadow: rgba(255, 255, 255, 0.25) 0px 24px 51px, rgba(255, 255, 255, 0.25) 0px -12px 30px, rgba(255, 255, 255, 0.25) 0px 4px 6px, rgba(255, 255, 255, 0.25) 0px 12px 13px, rgba(255, 255, 255, 0.25) 0px -3px 5px;
-    background-color: rgb(255, 255, 255); /* Green */
+    background-color: rgb(255, 255, 255);
+    /* Green */
     border: none !important;
     color: rgb(0, 0, 0);
     padding: 15px 32px;
@@ -126,21 +132,25 @@
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
-    font-size: x-large;;
+    font-size: x-large;
+    ;
     border-radius: 5% 5%;
-   
-  }
-  .button:hover{
+
+}
+
+.button:hover {
     transform: translateY(-0.25em);
-  }
-  backlight{
+}
+
+backlight {
     box-shadow: beige;
-  }
-  
-  .dd{
+}
+
+.dd {
     vertical-align: bottom;
-  }
-#mask{
+}
+
+#mask {
     position: absolute;
     top: 0;
     bottom: 10;
@@ -183,11 +193,62 @@
 
 }
 
+.pl5 {
+    padding-left: 5%;
+}
+
 .fontW {
     font-weight: bold;
+    font-size: 150%;
 }
-.testbox{
+
+.testbox {
     background-color: rgb(255, 242, 0);
     border-style: solid;
+
+}
+
+.footer {
+    background-color: rgb(181, 181, 181);
     
+    width: 100%;
+    text-align: center;
+}
+
+.footer .img {
+
+    height: 20px;
+
+}
+
+.logo {
+    height: 10em;
+    width: 20em;
+}
+
+.letter {
+    font-weight: bold;
+    font-size: large;
+   
+}
+.linkit{
+    align-self: center;
+}
+.linkit .linkki{
+    list-style-type: none;
+    text-align: right;
+        
+}
+ #musta{
+    color: black;
+    font-size: x-large;
+    text-decoration: none;
+    
+        
+}
+#musta:hover{
+    color:red;
+    font-weight: bold;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    padding: 0 0 5px;
 }
