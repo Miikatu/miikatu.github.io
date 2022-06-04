@@ -12,9 +12,9 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-            <a class="navbar-brand img pl5" href="#"><img src="MiekkailuLogo.png" class="img-fluid"
-                    alt="Responsive image" height="60"> </a>
+        <div class="container">
+            <div class="navbar-brand img pl5" href="#"><img id="linkLogo" src="MiekkailuLogo.png" class="img-fluid"
+                    alt="Responsive image" height="60" onclick="window.location.href='/index.html'"> </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -22,10 +22,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mauto fontW">
                     <li class="nav-item pr5">
-                        <a class="nav-link  active" aria-current="page" href="/index.html">Aloitus</a>
+                        <a class="nav-link " aria-current="page" href="/index.html">Aloitus</a>
                     </li>
                     <li class="nav-item pr5">
-                        <a class="nav-link" href="/historia.html">Historia</a>
+                        <a class="nav-link active" href="/historia.html">Historia</a>
                     </li>
                     <li class="nav-item pr5">
                         <a class="nav-link" href="/harrastus.html">Harrastus</a>
@@ -38,40 +38,42 @@
         </div>
     </nav>
     <section class="history">
-        <h1 class="text-center home py-5">Tervetuloa Historia osioon</h1>
-        <div class="container   textbox">
+        <div id="tausta" class="col-lg-12 ">
+            <h1 class="py-5 text-center home ">Tervetuloa Historia osioon</h1>
+        </div>
+        <div class="container    ">
             <div class="info pt-5   ">
-                <h2 class="">Selkeä katsaus miekkailun historiaan </h4>
-                    <p class="mb-5 ">Tässä osiossamme kerromme laajasti miekkailun historiasta sen synnystä nykyaikaan
-                        asti.
-                    </p>
+                <h1 class="">Selkeä katsaus miekkailun historiaan </h1>
+                <p class="mb-5 ">Tässä osiossamme kerromme laajasti miekkailun historiasta sen synnystä nykyaikaan
+                    asti.
+                </p>
             </div>
-
-            <div class="laatikko">
-
-                <div class="row justify-content-center my-5">
-                    <div class="col-lg-6">
-                        <h2 class="otsikko mr-2 p-5">Miekkailun alku</h2>
-                        <p>
-                            Aenean porta egestas quam. Morbi volutpat nisl non nisl iaculis, eu dictum velit eleifend.
-                            Nunc ac odio
-                            id libero semper laoreet. Duis dignissim nec nunc eu placerat. Donec dui tellus, vehicula
-                            vitae lacinia
-                            nec, feugiat sed metus. Praesent commodo, nisi id pharetra aliquam, lacus libero dapibus
-                            nisl, porttitor
-                            facilisis justo turpis vitae nibh. Proin hendrerit ut odio vitae interdum. Nunc vitae
-                            condimentum ex, id
-                            blandit orci. Nullam tincidunt lorem vel vulputate tempus. Vestibulum ante ipsum primis in
-                            faucibus orci
-                            luctus et ultrices posuere cubilia curae; Ut tortor purus, sollicitudin sed eleifend eu,
-                            sagittis vel
-                            lorem. </p>
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="Angelo_Domenico_Malevolti_Fencing_Print,_1763.JPG" class="img-fluid" alt="">
-                    </div>
+    </section>
+    <section class="content pb-5">
+        <div class="container laatikko">
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-6">
+                    <h2 class="otsikko mr-2 p-5">Miekkailun alku</h2>
+                    <p>
+                        Aenean porta egestas quam. Morbi volutpat nisl non nisl iaculis, eu dictum velit eleifend.
+                        Nunc ac odio
+                        id libero semper laoreet. Duis dignissim nec nunc eu placerat. Donec dui tellus, vehicula
+                        vitae lacinia
+                        nec, feugiat sed metus. Praesent commodo, nisi id pharetra aliquam, lacus libero dapibus
+                        nisl, porttitor
+                        facilisis justo turpis vitae nibh. Proin hendrerit ut odio vitae interdum. Nunc vitae
+                        condimentum ex, id
+                        blandit orci. Nullam tincidunt lorem vel vulputate tempus. Vestibulum ante ipsum primis in
+                        faucibus orci
+                        luctus et ultrices posuere cubilia curae; Ut tortor purus, sollicitudin sed eleifend eu,
+                        sagittis vel
+                        lorem. </p>
+                </div>
+                <div class="col-lg-6 ">
+                    <img src="Angelo_Domenico_Malevolti_Fencing_Print,_1763.JPG" class="img-fluid " alt="">
                 </div>
             </div>
+        </div>
         </div>
         <div class="laatikko">
 
@@ -90,6 +92,63 @@
                             Fusce tristique, lectus ac elementum pellentesque, dui arcu accumsan ligula, nec faucibus
                             nunc orci id ligula. Vestibulum in ultricies arcu. Sed vitae pellentesque nisi, ut fermentum
                             sapien. Aliquam ex neque, pellentesque in libero a, scelerisque tristique tortor. </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="laatikko">
+
+            <div class="container ">
+                <div class="row justify-content-center my-5">
+
+                    <div class="tieto col-lg-6">
+                        <h3 class="otsikko mr-2 p-5">Ampuma-aseet saapuvat Eurooppaan</h3>
+                        <p>
+                            Curabitur eget porttitor purus. Morbi blandit, mi quis tempor interdum, eros sem congue
+                            lacus, sit amet auctor turpis ipsum vitae lectus. Nullam sagittis, odio vitae placerat
+                            varius, diam est malesuada ante, eget facilisis eros sapien non nulla. Morbi convallis
+                            tempor odio, quis imperdiet justo dignissim nec. Ut sit amet dui ut risus porttitor sodales.
+                            Fusce tristique, lectus ac elementum pellentesque, dui arcu accumsan ligula, nec faucibus
+                            nunc orci id ligula. Vestibulum in ultricies arcu. Sed vitae pellentesque nisi, ut fermentum
+                            sapien. Aliquam ex neque, pellentesque in libero a, scelerisque tristique tortor. </p>
+                        <p>Curabitur eget porttitor purus. Morbi blandit, mi quis tempor interdum, eros sem congue
+                            lacus, sit amet auctor turpis ipsum vitae lectus. Nullam sagittis, odio vitae placerat
+                            varius, diam est malesuada ante, eget facilisis eros sapien non nulla. Morbi convallis
+                            tempor odio, quis imperdiet justo dignissim nec. Ut sit amet dui ut risus porttitor sodales.
+                            Fusce tristique, lectus ac elementum pellentesque, dui arcu accumsan ligula, nec faucibus
+                            nunc orci id ligula. Vestibulum in ultricies arcu. Sed vitae pellentesque nisi, ut fermentum
+                            sapien. Aliquam ex neque, pellentesque in libero a, scelerisque tristique tortor</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="laatikko">
+
+            <div class="container ">
+                <div class="row justify-content-center my-5">
+
+                    <div class="tieto col-lg-6">
+                        <h1 class="otsikko mr-2 p-5">Modernin miekkailun synty</h1>
+                        <p>
+                            Curabitur eget porttitor purus. Morbi blandit, mi quis tempor interdum, eros sem congue
+                            lacus, sit amet auctor turpis ipsum vitae lectus. Nullam sagittis, odio vitae placerat
+                            varius, diam est malesuada ante, eget facilisis eros sapien non nulla. Morbi convallis
+                            tempor odio, quis imperdiet justo dignissim nec. Ut sit amet dui ut risus porttitor sodales.
+                            Fusce tristique, lectus ac elementum pellentesque, dui arcu accumsan ligula, nec faucibus
+                            nunc orci id ligula. Vestibulum in ultricies arcu. Sed vitae pellentesque nisi, ut fermentum
+                            sapien. Aliquam ex neque, pellentesque in libero a, scelerisque tristique tortor. </p>
+                        <p>Curabitur eget porttitor purus. Morbi blandit, mi quis tempor interdum, eros sem congue
+                            lacus, sit amet auctor turpis ipsum vitae lectus. Nullam sagittis, odio vitae placerat
+                            varius, diam est malesuada ante, eget facilisis eros sapien non nulla. Morbi convallis
+                            tempor odio, quis imperdiet justo dignissim nec. Ut sit amet dui ut risus porttitor sodales.
+                            Fusce tristique, lectus ac elementum pellentesque, dui arcu accumsan ligula, nec faucibus
+                            nunc orci id ligula. Vestibulum in ultricies arcu. Sed vitae pellentesque nisi, ut fermentum
+                            sapien. Aliquam ex neque, pellentesque in libero a, scelerisque tristique tortor</p>
+                    </div>
+                    <div class="kuvake col-lg-6">
+                        <img src="Angelo_Domenico_Malevolti_Fencing_Print,_1763.JPG" alt="">
                     </div>
 
                 </div>
@@ -117,10 +176,10 @@
             </div>
         </div>
         </div>
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

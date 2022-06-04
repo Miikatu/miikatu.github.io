@@ -8,7 +8,9 @@
     color: white !important;
     font-size: 1.8em !important;
 }
-
+nav img{
+    cursor: pointer;
+}
 #intro {
     background-image: url(/micaela-parente-YGgKE6aHaUw-unsplash.jpg);
     background-size: cover;
@@ -60,10 +62,12 @@
     font-size: x-large;
     color: rgb(42, 42, 42);
 }
-.card .info{
+
+.card .info {
     color: rgb(105, 105, 105);
 }
-.card{
+
+.card {
     cursor: pointer;
 }
 
@@ -216,7 +220,7 @@ backlight {
 
 .footer {
     background-color: rgb(181, 181, 181);
-    
+
     width: 100%;
     text-align: center;
 }
@@ -235,41 +239,61 @@ backlight {
 .letter {
     font-weight: bold;
     font-size: large;
-   
+
 }
-.linkit{
+
+.linkit {
     align-self: center;
 }
-.linkit .linkki{
+
+.linkit .linkki {
     list-style-type: none;
     text-align: right;
-        
+
 }
- #musta{
+
+#musta {
     color: black;
     font-size: x-large;
     text-decoration: none;
-    
-        
+
+
 }
-#musta:hover{
-    color:red;
+a:hover{
+    color: red;
+    font-weight: bold;
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
+#musta:hover {
+    color: red;
     font-weight: bold;
     border-bottom: 5px solid rgb(0, 0, 0);
     padding: 0 0 5px;
 }
 
-.history .otsikko{
+.bgimg {
+    background-image: url(/sabre-gd7f68abfb_1920.png);
+
+}
+ #tausta {
+       background-color: rgb(23, 23, 23);
+    
+}
+.history .otsikko {
     font-weight: 200;
     text-align: left;
-margin-bottom: 2%;
-font-weight: 400;
-font-size:3 em;}
-.history img{
-    border-radius: 5%;
+    margin-bottom: 2%;
+    font-weight: 400;
+    font-size: 3 em;
 }
-.history .home{
-    color: rgb(112, 30, 30);
+
+.content img {
+    border-radius: 5%;
+    box-shadow:50px;
+}
+
+.history .home {
+    color: rgb(116, 11, 11);
     font-size: 3em;
     font-weight: bold;
 }
