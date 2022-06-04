@@ -8,9 +8,11 @@
     color: white !important;
     font-size: 1.8em !important;
 }
-nav img{
+
+nav img {
     cursor: pointer;
 }
+
 #intro {
     background-image: url(/micaela-parente-YGgKE6aHaUw-unsplash.jpg);
     background-size: cover;
@@ -259,13 +261,16 @@ backlight {
 
 
 }
-a:hover{
-    color: red;
+
+a:hover {
+    color: rgb(112, 30, 30);
+    ;
     font-weight: bold;
     border-bottom: 5px solid rgb(0, 0, 0);
 }
+
 #musta:hover {
-    color: red;
+    color: rgb(112, 30, 30);
     font-weight: bold;
     border-bottom: 5px solid rgb(0, 0, 0);
     padding: 0 0 5px;
@@ -275,25 +280,59 @@ a:hover{
     background-image: url(/sabre-gd7f68abfb_1920.png);
 
 }
- #tausta {
-       background-color: rgb(23, 23, 23);
-    
+
+#tausta {
+    background-color: rgb(26, 26, 26);
+
 }
+
 .history .otsikko {
-    font-weight: 200;
+    font-weight: 300;
     text-align: left;
     margin-bottom: 2%;
     font-weight: 400;
     font-size: 3 em;
 }
 
+#subotsikko {
+
+    box-shadow: -5px 5px rgb(112, 30, 30);
+}
+
 .content img {
     border-radius: 5%;
-    box-shadow:50px;
+    box-shadow: 50px;
+    box-shadow: 00px 10px 5px rgb(0, 0, 0);
+
+
+}
+
+.top .home {
+    color: rgb(112, 30, 30);
+    font-size: 3em;
+    font-weight: bold;
 }
 
 .history .home {
-    color: rgb(116, 11, 11);
+    color: rgb(112, 30, 30);
     font-size: 3em;
     font-weight: bold;
+}
+
+.tip {
+    box-shadow: 10px -10px rgb(112, 30, 30), 10px 10px rgb(112, 30, 30), -10px -10px rgb(112, 30, 30), -10px 10px rgb(112, 30, 30);
+    background-color: rgba(59, 59, 59, 0.541) !important;
+}
+.tip p{
+    font-style:oblique ;
+    font-size: large;
+}
+.tip h5{
+    font-weight: bold;
+}
+
+.tip #johde {
+    cursor: pointer;
+    text-align: right;
+    color: rgb(79, 0, 0);
 }
