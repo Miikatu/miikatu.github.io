@@ -21,14 +21,14 @@ nav img {
 }
 
 .home h1 {
-    color: rgb(112, 30, 30);
+    color: rgb(156, 36, 36);
     font-size: 4em;
     font-weight: bold;
 }
 
 .home p {
     font-style: italic;
-    font-size: 2em;
+    font-size: 1.75em;
     color: rgb(197, 190, 190);
     background-color: rgba(0, 0, 0, 0.782);
     line-height: 1.20;
@@ -82,11 +82,14 @@ nav img {
 }
 
 .btn-block {
-    background-color: rgb(112, 30, 30);
+    background-color: rgb(156, 36, 36);
     color: white;
     line-height: 2;
     font-weight: bold;
     font-size: large;
+
+}
+.btn-block:hover{
 
 }
 
@@ -134,7 +137,7 @@ nav img {
 }
 
 .button {
-    box-shadow: rgba(255, 255, 255, 0.25) 0px 24px 51px, rgba(255, 255, 255, 0.25) 0px -12px 30px, rgba(255, 255, 255, 0.25) 0px 4px 6px, rgba(255, 255, 255, 0.25) 0px 12px 13px, rgba(255, 255, 255, 0.25) 0px -3px 5px;
+    box-shadow: rgba(255, 255, 255,0 ) 0px 24px 20px, rgba(255, 255, 255, 0.0) 0px -12px 5px, rgba(255, 255, 255, 00.0) 0px 4px 6px, rgba(255, 255, 255, 0.0) 0px 12px 13px, rgba(255, 255, 255, 0.0) 0px -3px 5px;
     background-color: rgb(255, 255, 255);
     /* Green */
     border: none !important;
@@ -150,7 +153,7 @@ nav img {
 
 }
 
-.button:hover {
+button:hover {
     transform: translateY(-0.25em);
 }
 
@@ -221,9 +224,10 @@ backlight {
 }
 
 .footer {
-    background-color: rgb(181, 181, 181);
-    box-shadow: 0px -1px 50px rgb(112,13,13);
+    
+    background-color: #20252b;
     width: 100%;
+    color: white;
     text-align: center;
 }
 
@@ -232,6 +236,14 @@ backlight {
     height: 20px;
 
 }
+.footer .otsikko{
+    font-size: 2em;
+    font-weight: bold;
+}
+.footer .row{
+    border-bottom: solid;
+   
+}
 
 .logo {
     height: 10em;
@@ -239,13 +251,14 @@ backlight {
 }
 
 .letter {
-    font-weight: bold;
-    font-size: large;
+    
+    font-size: larger;
 
 }
 
 .linkit {
     align-self: center;
+   margin-left: auto;
 }
 
 .linkit .linkki {
@@ -263,14 +276,14 @@ backlight {
 }
 
 a:hover {
-    color: rgb(112, 30, 30);
+    color: rgb(156, 36, 36)!important;
     ;
     font-weight: bold;
     border-bottom: 5px solid rgb(0, 0, 0);
 }
 
 #musta:hover {
-    color: rgb(112, 30, 30);
+    color: rgb(156, 36, 36);
     font-weight: bold;
     border-bottom: 5px solid rgb(0, 0, 0);
     padding: 0 0 5px;
@@ -296,31 +309,28 @@ a:hover {
 
 #subotsikko {
 
-    box-shadow: -5px 5px rgb(112, 30, 30);
+    box-shadow: -5px 5px rgb(156, 36, 36);
 }
 
 .content img {
     border-radius: 5%;
-    box-shadow: 50px;
-    box-shadow: 00px 10px 5px rgb(0, 0, 0);
-
-
+    
 }
 
 .top .home {
-    color: rgb(112, 30, 30);
+    color: rgb(156, 36, 36);
     font-size: 3em;
     font-weight: bold;
 }
 
 .history .home {
-    color: rgb(112, 30, 30);
+    color: rgb(156, 36, 36);
     font-size: 3em;
     font-weight: bold;
 }
 
 .tip {
-    box-shadow: 10px -10px rgb(112, 30, 30), 10px 10px rgb(112, 30, 30), -10px -10px rgb(112, 30, 30), -10px 10px rgb(112, 30, 30);
+    box-shadow: 10px -10px rgb(156, 36, 36), 10px 10px rgb(156, 36, 36), -10px -10px rgb(156, 36, 36), -10px 10px rgb(156, 36, 36);
     background-color: rgba(59, 59, 59, 0.541) !important;
 }
 .tip p{
@@ -339,14 +349,14 @@ a:hover {
 .pohja{
     margin-left: auto;
     margin-right: auto;
-    height: 75%;
-    width: 75%;
+    height: 100%;
+    width: 100%;
     display: block;
     border-radius: 5%;
     box-shadow: none !important;
 }
 #contacts{
-    color: rgb(112, 30, 30);
+    color: rgb(156, 36, 36);
     font-weight: bold;
     border-bottom: 5px solid rgb(0, 0, 0);
     padding: 0 0 5px;
