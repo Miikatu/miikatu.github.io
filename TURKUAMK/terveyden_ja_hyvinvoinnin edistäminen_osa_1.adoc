@@ -1,0 +1,39 @@
+=== Osa 1. Terveyden ja hyvinvoinnin edistäminen
+
+== Kysymykset
+
+---
+
+3)
+
+Kuntien tehtävänä on tuottaa hyvinvointikertomus kerran valtuustokauden aikana.
+
+* Mitä se sisältää ja mihin sitä käytetään? (Laki sosiaali- ja terveydenhuollon järjestämisestä 612/2021)
+
+* Hyvinvointikertomus kokoaa olemassa olevan hyvinvointitiedon (taustatekijät, vahvuudet ja
+kehittämistar- peet) yhteen asiakirjaan.
+
+* Se sisältää suunnitelman kuntalaisten:
+**   hyvinvoinnin
+edistämisen painopistealueista
+** tavoitteista
+** toimenpiteistä
+** resursseista 
+** arviointimittareista.
+** kunnan terveyden ja hyvinvoinnin
+*** edistämisen suunnittelun
+*** arvioinnin
+*** raportoinnin työväline.
+
+* Sen tavoitteena on koota hyvinvointitietoa päätöksenteon tueksi.
+
+* Hyvinvointikertomus sisältää
+Kunnan:
+
+** https://thl.fi/fi/web/hyvinvoinnin-ja-terveyden-edistamisen-johtaminen/hyvinvointijohtaminen/hyvinvointijohtaminen-kunnassa/kunnan-hyvinvointikertomus[hyvinvointikertomus - THL]
+
+Vastaus:
+
+Hyvinvointikertomuksessa kerrotaan kunnan hyvinvoinnin edistämisen suunnitelmat ja tavoitteet.
+
+Kertomus on jaettu kahteen osaan. Hyvinvointikertomukseen ja -suunnitelmaan.
