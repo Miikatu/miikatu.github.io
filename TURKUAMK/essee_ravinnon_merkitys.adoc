@@ -1,5 +1,16 @@
 
-= Kirjoitustehtävä ravinnon merkityksestö
+= Kirjoitustehtävä ravinnon merkityksestä
+
+
+== Johdanto
+
+Suun terveys on aihe joka pysyy aina ajankohtaisena. Suun terveyden suurin vaikuttaja on ravinto mitä henkilö syö.
+
+Nykyisin ihmisen hampaisto ja suu ovat melko kovassa rasituksessa, koska ruoka on hyvinkin sokeripitoista ja sokerin hankkiminen on helppoa ja edullista. Myös napostelu on valitettavan yleistä.
+
+Työn tarkoitus oli selvittää, mitä vaihtoehtoja ihmisellä on ravinnon suhteen. Miten omia syömistapoja kannattaisi muokata, jotta hampaat ja suu pysyisivät mahdollisimman terveinä? 
+
+Työssä on käyty läpi eri aihealueita liittyen ravintoon ja esitelty mitä  lähteenä olevista aineistosta löytyy.
 
 == Ravinto ja suun terveys
 
@@ -106,6 +117,15 @@ https://www.terveysportti.fi/apps/dtk/tod/article/trv00016/search/kasvisruokaval
 Laktoosi-intorelanssipotilaiden keskuudessa ei olla huomattu eroja kariesin esiintymisessä, mutta maitoallergia saattaa vaikuttaa suun terveyteen. Maitoallergiapotilailla saattaa ilmetä hetkellistä hypokalsemiaa, joka johtaa hampaiden terveyden heikkenemiseen. 
 
 Maitoallergikot saattavat käyttää hoidossaan purutabletteja ja annosjauheita, jotka sisältävät suun terveyttä vaarantavia aineita. Allergian hoidossa näitä aineita saatetaan käyttää useita kertoja päivässä.
+
+=== Keliakia
+
+Keliakiaaa sairastavialla ihmisillä ei varsinaiseti ole huomattu erityistä alttiutta suun sairauksille.
+
+Kuitenkin, jos keliakia alkaa nuorella henkilöllä niin siihen vahvasti liittyvä malabsorptio eli ravintoaineiden imeytymishäiriö voi helposti johtaa kehityshäiriöihin hampaissa. Tämä johtuu siitä, että nuorilla hampaat ovat vielä kehityvaiheessa.
+
+Lähde:
+https://www.terveyskirjasto.fi/ltt02042
 
 === Paastoaminen
 
