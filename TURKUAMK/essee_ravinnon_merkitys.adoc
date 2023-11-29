@@ -2,7 +2,7 @@
 = Kirjoitustehtävä ravinnon merkityksestä
 
 
-== Johdanto
+== Ravinto ja suun terveys
 
 Suun terveys on aihe joka pysyy aina ajankohtaisena. Suun terveyden suurin vaikuttaja on ravinto mitä henkilö syö.
 
@@ -11,8 +11,6 @@ Nykyisin ihmisen hampaisto ja suu ovat melko kovassa rasituksessa, koska ruoka o
 Työn tarkoitus oli selvittää, mitä vaihtoehtoja ihmisellä on ravinnon suhteen. Miten omia syömistapoja kannattaisi muokata, jotta hampaat ja suu pysyisivät mahdollisimman terveinä? 
 
 Työssä on käyty läpi eri aihealueita liittyen ravintoon ja esitelty mitä  lähteenä olevista aineistosta löytyy.
-
-== Ravinto ja suun terveys
 
 Ravinnolla on suuri merkitys suun terveydelle. Ravinto vaikuttaa hampaisiin, vaikka hampaat olisivat täysin terveet, puhkeamassa tai jo puhjenneet. Myös hampaattomaan suuhun vaikuttaa ravinto, koska 
 myös silloin suun limakavot ovat yhteydessä ravintoon. Suuhun tuotua ruokaa ei ole vielä käsitelty elimistössä joten hampaat ja ikenet kohtaavat ravinnon sellaisenaan.
