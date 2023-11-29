@@ -10,8 +10,8 @@ Suun terveyden kannalta on tärkeää mitä syö. Ravinnon vaikutus suun teyrvey
 
 Suun terveyttävää ravintoa voisi olla esimerkiksi fluoria, kalsimuia ja fosfaattia sisältävä ruoka. Ruoka, jonka syömisessä tarvitaan pureskelua edistää myös suun terveyttä. Vastakohtana taas suun terveyttä heikentää sokerillinen ja hapokas ravinto. Jos ihmisellä on ruokaaineallergioita, niin jotkin allergisoivat ruoka-aineet voivat myös heikentää suun terveyttä.
 
-    Lähde:
-    (https://www.terveysportti.fi/apps/dtk/tod/article/trv00012?toc=403594)
+Lähde:
+https://www.terveysportti.fi/apps/dtk/tod/article/trv00012?toc=403594
 
 == Suun terveys ja syömistottumukset
 
@@ -29,7 +29,26 @@ Suun terveyttä voi ylläpitää syömällä monipuolisesti. Ravinnon tulisi oll
 
 Hyvien syomistottumusten ylläpitoa voi helpottaa syömällä säännöllisesti riittävän suuria aterioita. Nälkäisyys voi jphtaa helposti naposteluun.
 
-Aterian syötyään voi ottaa ksylitolia tai jotain kalsiumia runsaasti sisältävää ruokaa.
+Aterian syötyään voi ottaa ksylitolia tai jotain kalsiumia runsaasti sisältävää ruokaa. Pureskeltavat pähkinät ovat varsin hyvä pikkupurtava aterian jälkeen. 
 
-    Lähde:
-    (https://www.terveysportti.fi/apps/dtk/tod/article/trv00163/search/Suun%20terveys%20ja%20sy%C3%B6mistottumukset)
+Lähde:
+https://www.terveysportti.fi/apps/dtk/tod/article/trv00163/search/Suun%20terveys%20ja%20sy%C3%B6mistottumukset
+
+== Ravinnon sokerit ja suun terveys
+
+Suun terveyden kannalta pahimpia hiilihydraatteja ovat sokerit. Sokerit heikentävät hampaiden terveyttä, koska suussa olevat bakteerit käyttävät ravinnon mukana tulleista sokereista happoja. Hampaille hapot ovat haitallisia, koska ne laskevat hampaiden pH:ta eli happamuutta. Hampaiden kiille alkaa liukenamaan kun happamuus laskee tarpeeksi. 
+
+Suussa oleva sylki korjaa sokereiden tekemää haittaa. Korjautuminen ei kutenkaan tapahdu jos suussa on meneillään happohyökkäys. Siksi sokeria ei saisi syödä jatkuvalla tahdilla. 
+
+Jos hampaiden pinta pehmenee liikaa ja sylki ei ehdi kovettaa kiillettä niin hampaisiin muodostuu reikä. 
+
+Melkein kaikki ravinto sisältää hiilihydraatteja, joita suun bakteerit käyttävät ravintonaan. Kaikista pahimia happojen muodostajia ovat sakkaroosi, glukoosi, fruktoosi, maltoosi, laktoosi ja tärkkelyssiirapit. 
+
+Ksylitoli ja erytritoli ovat happaille vaarattomia luonnonmukaisia sokereita. Aspartaami, asesulfaami K, sukraloosi ja sakariini ovat hampaiden kannalta haitattomia keinotekoisia makeuttajia. Näillä makeuttajillla makeutetut tuotteet voivat silti aiheuttaa eroosiota hampaissa, jos tuotteissa on muuten vain happoja.
+
+Ksylitoli on erityinen sokeri, koska sillä on jopa positiivisia vaikutteita hampaiden terveyteen. Ksylitolia on tutkittu ja sen on todettu voivan estää hampaiden reikien muodostumista. 
+
+Sokerien aiheuttamaan haittaan vaikuttaa se kauanko ne viipyvät suussa. Kauemmin viipyneet sokerit aiheuttavat enemmän happojen muodostumista. 
+
+Sokereita voi jäädä suuhun pidemmäksi aikaa jos hampaista löytyy epätasaisuuksia. Sokeri voi myös tarttua hampaisiin ja jäädä siksi sinne pidemmäksi aikaa. Reiät ja lohkeamat saattavat kerätä sokereita. Myös oikomislaitteet ja irtoproteesit tekevät samaa.
+
