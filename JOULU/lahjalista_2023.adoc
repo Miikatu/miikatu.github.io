@@ -1,0 +1,21 @@
+=== Lahjalista 20
+== Miika
+
+Lahjaidea-lista vuodelle 2023
+
+=== AA-Patterit
+
+image::assets/paristo.webp[Kuva AA-paristoista]  
+
+https://www.prisma.fi/tuotteet/100096974/varta-longlife-power-20xaa-alkaliparisto-100096974[AA-Paristoja]
+
+=== Paracetamol
+    
+image::assets/Ibumax-kipulaake-200mg-20-tabl-yliopistonverkkoapteekki.jpg[Ibumax]
+image::assets/Paramax-Rap-500-mg-kipulaake-10-tabl.jpg[Paramax]
+
+* https://www.yliopistonverkkoapteekki.fi/epages/KYA.sf/fi_FI/?ObjectPath=/Shops/KYA/Products/018999[Paracetamol kipulääke]
+
+* https://www.yliopistonverkkoapteekki.fi/epages/KYA.sf/fi_FI/?ObjectPath=/Shops/KYA/Products/020121[Ibuprofeeni kipulääke]
+
+=== 
