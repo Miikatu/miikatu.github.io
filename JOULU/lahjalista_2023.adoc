@@ -67,4 +67,31 @@ Lyhyt kuvaus:
 
 Hypridikuulokkeet toimivat *analogisesti* langallisesti ja langattomasti akun kanssa. Langallinen käyttö *ei tarkoita kuulokkeiden käyttöä ladatessa*
 
+== Järkevä tietokonenäyttö eli monitori
+
+Tarvitsisin kuvaruudun, joka ei hajoa jos sitä siirtää. 
+
+Valitettavasti kaupassa myydään vain kurjaa elektronikka jätettä.
+
+Näyttö sopii olla pienikokoinen, sellainen pöydälle mahtuva.
+
+Liitäntä HDMI tai USB-C tai molemmat
+
+== Hämmästyttävän iso kynttilä
+
+Kynttilän tulisi sijaita vähintään yhtä isossa lasiastiassa.
+
+Tarkoituksena on kynttilän käytön jälkeen käyttää astiaa juomalasina.
+
+image::assets/punoslasi-kynttilae.jpg[]
+
+
+
+
+
+
+
+
+
+
 
