@@ -87,11 +87,18 @@ Kynttilän tulisi sijaita vähintään yhtä isossa lasiastiassa.
 
 Tarkoituksena on kynttilän käytön jälkeen käyttää astiaa juomalasina.
 
-image::assets/punoslasi-kynttilae.jpg[]
+image::assets/punoslasi-kynttilae.jpg[width=100,height=50]
 
 
+== Jatkoroikka
 
+* Maadoitettu
+* Ainakin 3 metriä pitkä ja voi olla enemmänkin
+* virtakytkimelle ei ole tarvetta
 
+image::assets/CD3C3032F3E7B51A66C10DEE5AD76F0C6BF77208.jpeg[width=100,height=50]
+
+== 
 
 
 
