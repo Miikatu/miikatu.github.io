@@ -2,6 +2,10 @@
 
 Lahjaidea-lista vuodelle 2023
 
+++++
+include::audio.html[]
+++++
+
 == AA-Patterit
 
 image:assets/paristo.webp[width=200,height=100]  
@@ -84,6 +88,7 @@ Kynttilän tulisi sijaita vähintään yhtä isossa lasiastiassa.
 Tarkoituksena on kynttilän käytön jälkeen käyttää astiaa juomalasina.
 
 image::assets/punoslasi-kynttilae.jpg[]
+
 
 
 
