@@ -621,15 +621,74 @@ WeBots has however a generic type robot node that implements the same robot inte
 <div class="sect2">
 <h3 id="_rotating_platform">Rotating platform</h3>
 <div class="paragraph">
-<p>Another point where rotation on the z-axis is needed would be right at the beginnig of the robot. Usually similiar six-axis robots have a rotating stand. In this project the model will also be able to rotate all of the arm a full circle.</p>
+<p>The robot needs to be able to reach everything surrounding it. Thus far the model has quite a diverse set of movements. The robot can reach items that are in front of it and behind it. Though not necessary for this project it can also reach positions that are on top of it. The robot would benefit alot if the robot itself could rotate 360 degrees. Thisway the robot would be able to reach the surrounding plants.</p>
 </div>
 <div class="paragraph">
 <p>Since this project doesn&#8217;t focus in the details of the model, the rotation will simply happen by allowing the very first arm segment to rotate. Adding this feature will happen exactly the same as it did in the previous chapter.</p>
 </div>
 <div class="paragraph">
-<p>The first two joints and rotational motor were allowed to only rotate a certain amount. This was done to prevent the arm from colliding with itself. Now the two latter joints won&#8217;t have this problem. In theory they can be set to rotate freely without any limitations. Later on in this project the robot will be given certain positions that the robots will follow. If the two joints are allowed to rotate freely then setting them to a correct positions would be more difficult. To make the programming this robot easier the two joints will get limitations set on them. In this project the two latter joints are only allowed to rotate 360 degrees. The drawback for this limitation is that the robot might need to do extra rotations to get into a position.</p>
+<p>The first two joints and rotational motor were allowed to only rotate a certain amount. This was done to prevent the arm from colliding with itself. Now the two latter joints won&#8217;t have this problem. In theory they can be set to rotate freely without any limitations. Later on in this project the robot will be given certain positions that the robots will follow. If the two joints are allowed to rotate freely then setting them to a correct positions would be more difficult. To make the programming this robot easier the two joints will get limitations set on them. In this project the two latter joints are only allowed to rotate 360 degrees. This implementation will however have some drawbacks.</p>
+</div>
+<div class="paragraph">
+<p>The drawback for this limitation is that the robot might need to do extra rotations to get into a position. Lets say the segment of the arm has rotated around 350 degrees and now it is asked to rotate to 10 degrees (from the starting point). The shortest path to the goalpoint would be to rotate 20 more degrees. This would make the total amount of rotation 370 degrees. Now that we have set the maximum rotation to 360 degrees, the robot needs to rotate counterwise 340 degrees.</p>
 </div>
 <hr>
+</div>
+<div class="sect2">
+<h3 id="_rotational_platform">Rotational platform</h3>
+<div class="paragraph">
+<p>The robot needs to be able to reach everything surrounding it. Thus far the model has quite a diverse set of movements. The robot can reach items that are in front of it and behind it. Though not necessary for this project it can also reach positions that are on top of it. The robot would benefit alot if the robot itself could rotate 360 degrees. Thisway the robot would be able to reach the surrounding plants.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_giving_the_robot_a_purpose">Giving the robot a purpose</h3>
+<div class="paragraph">
+<p>The robot can now move qyuite freely. Its movement is felxible enough si that the robot can be given a task. For this project the arm will be used as a watering robot. THe robot will be given a certain amounts of coordinates which it will follow. Each coordinate represents the amount of radians each motor should be rotated. This robot model has a starting point where each segment points directly upwards and the whole robot stands as if it was a pole. It is from this starting point from which the poisition of the robot is calculated from.</p>
+</div>
+<div class="sect3">
+<h4 id="_first_test_of_the_coordinate_system">First test of the coordinate system.</h4>
+<div class="paragraph">
+<p>To test out the coordinate system, the robot will be only given one position. Since the robot has four rotational motors it will be given a list of four floating point numbers. Each number represents the amount a certain motor can rotate.
+The controller of the robot will have a function that checks weather or not a joint has reached an intended coordinate and if the joint is getting closer to its destination. This function will be called quite often in the main loop of the conrtoller and thus shouldn&#8217;t be too complicated or slow to run. This function should also set the correct direction for each rotational motor and set the speed of the motors to zero if the join is in correct position.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="assets/watering_robot_movement.png" alt="height:300" width="width:300">
+</div>
+</div>
+<div class="paragraph">
+<p>Here below in the video is a simple example where the robot is given a set of four coordinates and the robot will try to get into a position matching these coordinates. The robot of this project isn&#8217;t able to follow coordinates very preciesly but it can get somewhat close.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="assets/video/coordinate_system.gif" alt="height:300" width="width:300">
+</div>
+</div>
+<div class="paragraph">
+<p>The same movement system works for negative values. In the code there is a point where the destination and the current position of a joint is compared and the a decision is made on weather or not the robot needs to have a negative or positive speed.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_controlling_the_robot">Controlling the robot</h3>
+<div class="paragraph">
+<p>This robot is controlled only in the code. It would be possible to implement an external controller system where a user chooses which list of coordinates is needed. It would be somewhat easy to then ask coordinates directly from the user and pass it to the robot through code.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_issues_with_the_robot">Issues with the robot</h3>
+<div class="paragraph">
+<p>This robot has a few points where further development is needed. For example the movement system is quite buggy. In theory joints of the robot might pass their destination determined in the coordinates and then keep rotationg. This robot doesn&#8217;t have proper limits on how long they can rotate for. The controller for this robot doesn&#8217;t do a very good job at stopping the robot in precise points.</p>
+</div>
+<div class="paragraph">
+<p>This problem could be solved by changing the speed of the rotation if a joint is reaching its destination. Another solution would be to check more often if the robot is at the correct position. Also it would be very usefull if the robot had hard limits on when to stop moving.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_further_development">Further development</h3>
+<div class="paragraph">
+<p>As mentioned in a previous chapter a user interface would make this project more intereting. Adding an UI might help with debugging and improving the movement system since adding and changing the coordinate list with the UI would be much faster. 1§If the movement and coordinate system where to be a bit more precise then the robot would be much better at its job.</p>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_sources">Sources</h3>
@@ -677,7 +736,7 @@ WeBots has however a generic type robot node that implements the same robot inte
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-11-14 22:55:13 +0200
+Last updated 2023-12-17 20:26:33 +0200
 </div>
 </div>
 </body>
