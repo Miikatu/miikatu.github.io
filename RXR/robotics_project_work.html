@@ -614,7 +614,7 @@ WeBots has however a generic type robot node that implements the same robot inte
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="assets/video/rotational_joint_2_cropped_low.gif" alt="Video of rotational joint">
+<img src="assets/video/rotational_joint_2_cropped_low.gif" alt="rotational joint 2 cropped low">
 </div>
 </div>
 </div>
@@ -632,7 +632,6 @@ WeBots has however a generic type robot node that implements the same robot inte
 <div class="paragraph">
 <p>The drawback for this limitation is that the robot might need to do extra rotations to get into a position. Lets say the segment of the arm has rotated around 350 degrees and now it is asked to rotate to 10 degrees (from the starting point). The shortest path to the goalpoint would be to rotate 20 more degrees. This would make the total amount of rotation 370 degrees. Now that we have set the maximum rotation to 360 degrees, the robot needs to rotate counterwise 340 degrees.</p>
 </div>
-<hr>
 </div>
 <div class="sect2">
 <h3 id="_rotational_platform">Rotational platform</h3>
@@ -650,6 +649,11 @@ WeBots has however a generic type robot node that implements the same robot inte
 <div class="paragraph">
 <p>To test out the coordinate system, the robot will be only given one position. Since the robot has four rotational motors it will be given a list of four floating point numbers. Each number represents the amount a certain motor can rotate.
 The controller of the robot will have a function that checks weather or not a joint has reached an intended coordinate and if the joint is getting closer to its destination. This function will be called quite often in the main loop of the conrtoller and thus shouldn&#8217;t be too complicated or slow to run. This function should also set the correct direction for each rotational motor and set the speed of the motors to zero if the join is in correct position.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="assets/video/rotational_joint_low.gif" alt="rotational joint low">
+</div>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -736,7 +740,7 @@ The controller of the robot will have a function that checks weather or not a jo
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-12-17 20:41:44 +0200
+Last updated 2023-12-17 21:06:22 +0200
 </div>
 </div>
 </body>
